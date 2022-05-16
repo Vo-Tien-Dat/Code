@@ -1,0 +1,262 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(80, 74, 63);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+img {
+    width: 100%;
+}
+
+/* kieu size chia 12 va chia 16 */
+
+.sz-1-16 {
+    width: 6.25%;
+}
+
+.sz-2-16 {
+    width: 12.5%;
+}
+
+.sz-3-16 {
+    width: 18.75%;
+}
+
+.sz-4-16 {
+    width: 25%;
+}
+
+.sz-5-16 {
+    width: 31.25%;
+}
+
+.sz-6-16 {
+    width: 31.25%;
+}
+
+.sz-7-16 {
+    width: 43.75%;
+}
+
+.sz-8-16 {
+    width: 50%;
+}
+
+.sz-9-16 {
+    width: 56.25%;
+}
+
+.sz-10-16 {
+    width: 62.5%;
+}
+
+.sz-11-16 {
+    width: 68.75%;
+}
+
+.sz-12-16 {
+    width: 75%;
+}
+
+.sz-13-16 {
+    width: 81.25%;
+}
+
+.sz-14-16 {
+    width: 87.5%;
+}
+
+.sz-15-16 {
+    width: 93.75%;
+}
+
+.sz-16-16 {
+    width: 100%;
+}
+
+.sz-1-12 {
+    width: 8.3%;
+}
+
+.sz-2-12 {
+    width: 16.67%;
+}
+
+.sz-3-12 {
+    width: 25%;
+}
+
+.sz-4-12 {
+    width: 33.33%;
+}
+
+.sz-6-12 {
+    width: 50%;
+}
+
+.sz-8-12 {
+    width: 66.67%;
+}
+
+.sz-9-12 {
+    width: 75%;
+}
+
+.sz-12-12 {
+    width: 100%;
+}
+
+
+
+/* co chu  */
+.fz-5 {
+    font-size: 5px;
+}
+
+.fz-10 {
+    font-size: 10px;
+}
+
+.fz-15 {
+    font-size: 15px;
+}
+
+.fz-20 {
+    font-size: 20;
+}
+
+
+
+/* kieu navbar */
+.navbar {
+    position: relative;
+    margin-top: 0px;
+}
+
+.narbar-brand {
+    color: white
+}
+
+.navbar-item {}
+
+.navbar-color {
+    background-color: rgb(169, 169, 169);
+}
+
+.navbar-size {
+    width: 100%;
+    height: 100px;
+    z-index: 100;
+}
+
+.container {
+    position: relative;
+    padding: 10px;
+}
+
+
+
+.slider-form {
+    text-align: center;
+    position: relative;
+    padding: 1%;
+    background-color: rgb(80, 74, 63);
+    transition: 1.5s;
+    border-radius: 10px;
+}
+
+.slider-form:hover {
+    background-color: rgb(120, 111, 96);
+}
+
+.slider-form-next {
+    width: 35px;
+    height: 35px;
+    top: 50%;
+    left: 1%;
+    overflow: hidden;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+
+.slider-form-prev {
+    width: 35px;
+    height: 35px;
+    top: 50%;
+    left: 99%;
+    overflow: hidden;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.slider-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.slider-item {
+    padding: 3px;
+}
+
+.slider-item-form {
+    border: 1px solid white;
+    overflow: hidden;
+    width: 100%;
+}
+
+.slider-item-form-image {}
+
+.slider-item-form-name {}
+
+.slider-item-form-text {
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+}
+
+
+
+
+
+
+.row {
+    display: flex;
+    width: 100%;
+    text-align: center;
+}
+
+.col {}
+
+.border-1 {
+    border: 1px solid white;
+}
+
+.m-1 {
+    margin: 5px;
+}
+
+
+.sidebar {}
+
+.sidebar-items {}
+
+.sidebar-item {}
+
+.sidebar-item-form {}
+
+.sidebar-item-form-image {}
+
+.sidebar-item-form-name {}
